@@ -32,11 +32,16 @@ def load_documents(n_docs=N_DOCS, seed=SEED):
         subset="all", remove=("headers", "footers", "quotes")
     )
 
-    candidates = [
-        (text.strip(), dataset.target_names[label])
-        for text, label in zip(dataset.data, dataset.target)
-        if len(text.strip()) >= MIN_CHARS
-    ]
+    # Some posts were cross-posted to several groups, so the same text appears
+    # more than once. Duplicates get identical vectors and tied scores, which
+    # makes "overlap with exact search" flip at random, so keep one copy.
+    candidates = []
+    seen = set()
+    for text, label in zip(dataset.data, dataset.target):
+        text = text.strip()
+        if len(text) >= MIN_CHARS and text not in seen:
+            seen.add(text)
+            candidates.append((text, dataset.target_names[label]))
 
     rng = np.random.default_rng(seed)
     chosen = rng.choice(len(candidates), size=n_docs, replace=False)
