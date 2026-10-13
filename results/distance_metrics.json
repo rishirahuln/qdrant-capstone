@@ -1,0 +1,702 @@
+[
+  {
+    "query": "a question about a graphics card driver",
+    "results": {
+      "Cosine": {
+        "search_ms": 0.445,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 1551,
+            "score": 0.4666,
+            "vector_norm": 2.679,
+            "category": "comp.os.ms-windows.misc",
+            "text": "I would like to find a Windows 3.x driver for a video board that is based on the Chips & Technologies chipset. The actua"
+          },
+          {
+            "rank": 2,
+            "id": 1691,
+            "score": 0.4634,
+            "vector_norm": 2.723,
+            "category": "comp.os.ms-windows.misc",
+            "text": "I'm using an OAK based VGA card on my computer (640x480x256). I've downloaded the driver from ftp.cica.indiana.edu and I"
+          },
+          {
+            "rank": 3,
+            "id": 2726,
+            "score": 0.4311,
+            "vector_norm": 2.262,
+            "category": "comp.graphics",
+            "text": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I know. To "
+          },
+          {
+            "rank": 4,
+            "id": 5396,
+            "score": 0.4287,
+            "vector_norm": 4.176,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text": "I would appreciate the driver name from CICA which functions as a 256 color driver for a Quadtel video card. The type of"
+          },
+          {
+            "rank": 5,
+            "id": 785,
+            "score": 0.4162,
+            "vector_norm": 2.154,
+            "category": "comp.graphics",
+            "text": "FOR IMMEDIATE RELEASE Editorial Contact: Single Source Marketing: Myra Manahan (714) 545-1338 Genoa Systems: Joseph Brun"
+          }
+        ]
+      },
+      "Euclid": {
+        "search_ms": 0.425,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 1551,
+            "score": 6.2442,
+            "vector_norm": 2.679,
+            "category": "comp.os.ms-windows.misc",
+            "text": "I would like to find a Windows 3.x driver for a video board that is based on the Chips & Technologies chipset. The actua"
+          },
+          {
+            "rank": 2,
+            "id": 1691,
+            "score": 6.2499,
+            "vector_norm": 2.723,
+            "category": "comp.os.ms-windows.misc",
+            "text": "I'm using an OAK based VGA card on my computer (640x480x256). I've downloaded the driver from ftp.cica.indiana.edu and I"
+          },
+          {
+            "rank": 3,
+            "id": 2726,
+            "score": 6.3869,
+            "vector_norm": 2.262,
+            "category": "comp.graphics",
+            "text": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I know. To "
+          },
+          {
+            "rank": 4,
+            "id": 860,
+            "score": 6.4198,
+            "vector_norm": 2.709,
+            "category": "comp.graphics",
+            "text": "vamilliron: Yes, Intel's PCI is (another) Local Bus standard, which can be used for graphics, although I believe Local B"
+          },
+          {
+            "rank": 5,
+            "id": 969,
+            "score": 6.4306,
+            "vector_norm": 3.062,
+            "category": "comp.graphics",
+            "text": "I'm getting ready to buy a multimedia workstation and would like a little advice. I need a graphics card that will do vi"
+          }
+        ]
+      },
+      "Dot": {
+        "search_ms": 0.411,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 141,
+            "score": 12.7342,
+            "vector_norm": 6.049,
+            "category": "comp.windows.x",
+            "text": "Does XFree86 support any EISA video cards under Dell 2.2?"
+          },
+          {
+            "rank": 2,
+            "id": 5396,
+            "score": 12.5808,
+            "vector_norm": 4.176,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text": "I would appreciate the driver name from CICA which functions as a 256 color driver for a Quadtel video card. The type of"
+          },
+          {
+            "rank": 3,
+            "id": 286,
+            "score": 12.0129,
+            "vector_norm": 5.378,
+            "category": "comp.os.ms-windows.misc",
+            "text": "Has anyone used the Number Nine (# 9) Video Graphics adaptor with Windows or Windows NT? What do you think???"
+          },
+          {
+            "rank": 4,
+            "id": 3585,
+            "score": 10.4471,
+            "vector_norm": 5.708,
+            "category": "comp.os.ms-windows.misc",
+            "text": "Does anybody know the FTP site with the latest Windows drivers for the ATI GUP? Thanks"
+          },
+          {
+            "rank": 5,
+            "id": 364,
+            "score": 9.8904,
+            "vector_norm": 4.204,
+            "category": "comp.sys.ibm.pc.hardware",
+            "text": "Is it possible to connect a atari monochrome monitor to some kind of VGA card? If someone have done this please let me k"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "which motorcycle helmet should I buy",
+    "results": {
+      "Cosine": {
+        "search_ms": 0.383,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 25,
+            "score": 0.5596,
+            "vector_norm": 1.957,
+            "category": "rec.motorcycles",
+            "text": "Well, you can accomplish both goals, actually, if you have a definite physical type in mind when you go to these (cough)"
+          },
+          {
+            "rank": 2,
+            "id": 161,
+            "score": 0.5579,
+            "vector_norm": 2.086,
+            "category": "rec.motorcycles",
+            "text": "I'm selling the following items... - a pair of hard saddle bags - easy installation - snap release feature with lock - b"
+          },
+          {
+            "rank": 3,
+            "id": 3316,
+            "score": 0.5358,
+            "vector_norm": 1.828,
+            "category": "rec.motorcycles",
+            "text": "I'd bet the price of the helmet that it's okay...From 6 feet or higher, maybe not. I'd wear the full facer, but then, I'"
+          },
+          {
+            "rank": 4,
+            "id": 1636,
+            "score": 0.5211,
+            "vector_norm": 1.985,
+            "category": "rec.motorcycles",
+            "text": "While shopping for a passenger helmet, I noticed that in many cases the external dimensions of the helmets were the same"
+          },
+          {
+            "rank": 5,
+            "id": 4820,
+            "score": 0.4521,
+            "vector_norm": 2.617,
+            "category": "rec.motorcycles",
+            "text": "Anyone, I am a serious motorcycle enthusiast without a motorcycle, and to put it bluntly, it sucks. I really would like "
+          }
+        ]
+      },
+      "Euclid": {
+        "search_ms": 0.415,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 161,
+            "score": 6.7,
+            "vector_norm": 2.086,
+            "category": "rec.motorcycles",
+            "text": "I'm selling the following items... - a pair of hard saddle bags - easy installation - snap release feature with lock - b"
+          },
+          {
+            "rank": 2,
+            "id": 25,
+            "score": 6.7392,
+            "vector_norm": 1.957,
+            "category": "rec.motorcycles",
+            "text": "Well, you can accomplish both goals, actually, if you have a definite physical type in mind when you go to these (cough)"
+          },
+          {
+            "rank": 3,
+            "id": 1636,
+            "score": 6.8157,
+            "vector_norm": 1.985,
+            "category": "rec.motorcycles",
+            "text": "While shopping for a passenger helmet, I noticed that in many cases the external dimensions of the helmets were the same"
+          },
+          {
+            "rank": 4,
+            "id": 3316,
+            "score": 6.8334,
+            "vector_norm": 1.828,
+            "category": "rec.motorcycles",
+            "text": "I'd bet the price of the helmet that it's okay...From 6 feet or higher, maybe not. I'd wear the full facer, but then, I'"
+          },
+          {
+            "rank": 5,
+            "id": 4820,
+            "score": 6.8623,
+            "vector_norm": 2.617,
+            "category": "rec.motorcycles",
+            "text": "Anyone, I am a serious motorcycle enthusiast without a motorcycle, and to put it bluntly, it sucks. I really would like "
+          }
+        ]
+      },
+      "Dot": {
+        "search_ms": 0.396,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 2902,
+            "score": 11.1715,
+            "vector_norm": 5.37,
+            "category": "sci.electronics",
+            "text": "Name your price, cap colours & quantity available. cheers Mike"
+          },
+          {
+            "rank": 2,
+            "id": 5017,
+            "score": 10.7836,
+            "vector_norm": 4.033,
+            "category": "rec.motorcycles",
+            "text": "I wanted to let people know that this motorcycle has been sold. Thanks for your inquiries."
+          },
+          {
+            "rank": 3,
+            "id": 89,
+            "score": 9.7186,
+            "vector_norm": 4.712,
+            "category": "misc.forsale",
+            "text": "Nikon L35 Af camera. 35/2.8 lens and camera case. Package $50"
+          },
+          {
+            "rank": 4,
+            "id": 5496,
+            "score": 9.4971,
+            "vector_norm": 3.855,
+            "category": "misc.forsale",
+            "text": "Whistler Spectrum 2-SE. X, K, Ka. Pulse protection. Good condition. Purchased for $130, asking for $80."
+          },
+          {
+            "rank": 5,
+            "id": 4113,
+            "score": 9.2725,
+            "vector_norm": 3.987,
+            "category": "rec.motorcycles",
+            "text": "C'mon you guys. Motorcycles & booze don't mix. Nuff said."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "is there any evidence that god exists",
+    "results": {
+      "Cosine": {
+        "search_ms": 0.4,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 2873,
+            "score": 0.5584,
+            "vector_norm": 1.714,
+            "category": "alt.atheism",
+            "text": "Consider special relativity. It hasn't be proved, nor has it been disproved. No one has a proof one way or the other, bu"
+          },
+          {
+            "rank": 2,
+            "id": 1176,
+            "score": 0.5153,
+            "vector_norm": 1.616,
+            "category": "alt.atheism",
+            "text": "[reply to zazen@austin.ibm.com (E. H. Welbon)] For many atheists, the lack of belief in gods is secondary to an epistemo"
+          },
+          {
+            "rank": 3,
+            "id": 4656,
+            "score": 0.4996,
+            "vector_norm": 1.765,
+            "category": "alt.atheism",
+            "text": "(Deletion) No it in the way it is usually used. In my view, you are saying here that driving a car requires faith that t"
+          },
+          {
+            "rank": 4,
+            "id": 1626,
+            "score": 0.4892,
+            "vector_norm": 1.597,
+            "category": "soc.religion.christian",
+            "text": "Must there be a \"why\" to this? I ask because of what you also assume about God-- namely, that He just exists, with no \"w"
+          },
+          {
+            "rank": 5,
+            "id": 5533,
+            "score": 0.4865,
+            "vector_norm": 2.844,
+            "category": "soc.religion.christian",
+            "text": "I read somewhere that Kurt Goedel argued that the ontological argument for God's existence was logically reasonable (or "
+          }
+        ]
+      },
+      "Euclid": {
+        "search_ms": 0.379,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 5533,
+            "score": 5.5053,
+            "vector_norm": 2.844,
+            "category": "soc.religion.christian",
+            "text": "I read somewhere that Kurt Goedel argued that the ontological argument for God's existence was logically reasonable (or "
+          },
+          {
+            "rank": 2,
+            "id": 2873,
+            "score": 5.5249,
+            "vector_norm": 1.714,
+            "category": "alt.atheism",
+            "text": "Consider special relativity. It hasn't be proved, nor has it been disproved. No one has a proof one way or the other, bu"
+          },
+          {
+            "rank": 3,
+            "id": 4656,
+            "score": 5.6261,
+            "vector_norm": 1.765,
+            "category": "alt.atheism",
+            "text": "(Deletion) No it in the way it is usually used. In my view, you are saying here that driving a car requires faith that t"
+          },
+          {
+            "rank": 4,
+            "id": 1176,
+            "score": 5.6361,
+            "vector_norm": 1.616,
+            "category": "alt.atheism",
+            "text": "[reply to zazen@austin.ibm.com (E. H. Welbon)] For many atheists, the lack of belief in gods is secondary to an epistemo"
+          },
+          {
+            "rank": 5,
+            "id": 3640,
+            "score": 5.6717,
+            "vector_norm": 1.806,
+            "category": "alt.atheism",
+            "text": "At the cost of repudiating the FAQ, I think too much is made of the strong vs weak atheism issue, although in the contex"
+          }
+        ]
+      },
+      "Dot": {
+        "search_ms": 0.39,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 5533,
+            "score": 8.7103,
+            "vector_norm": 2.844,
+            "category": "soc.religion.christian",
+            "text": "I read somewhere that Kurt Goedel argued that the ontological argument for God's existence was logically reasonable (or "
+          },
+          {
+            "rank": 2,
+            "id": 4052,
+            "score": 8.5227,
+            "vector_norm": 3.898,
+            "category": "alt.atheism",
+            "text": "I've heard that in California they ask you to swear without any mention of a god. What states actually include \"god\" in "
+          },
+          {
+            "rank": 3,
+            "id": 1025,
+            "score": 7.0894,
+            "vector_norm": 3.989,
+            "category": "soc.religion.christian",
+            "text": "Remember the OT doctrine of 2 witnesses? Perhaps the prophets testified He is coming. The Apostles, testified He came."
+          },
+          {
+            "rank": 4,
+            "id": 4434,
+            "score": 7.0519,
+            "vector_norm": 4.135,
+            "category": "sci.space",
+            "text": "Not quite true. One of the instruments on Mars Observer will be searching for potential fossil sites."
+          },
+          {
+            "rank": 5,
+            "id": 1538,
+            "score": 7.0249,
+            "vector_norm": 4.415,
+            "category": "soc.religion.christian",
+            "text": "My roommate, the atheist, says \"to anyone out there who might be listening.\""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "delays to the next space shuttle launch",
+    "results": {
+      "Cosine": {
+        "search_ms": 0.401,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 997,
+            "score": 0.4521,
+            "vector_norm": 2.181,
+            "category": "sci.space",
+            "text": "Well, you better not get the shuttle as your launch vehicle. and most ELV's have too far of a backlog for political mess"
+          },
+          {
+            "rank": 2,
+            "id": 1956,
+            "score": 0.4342,
+            "vector_norm": 2.219,
+            "category": "sci.space",
+            "text": "Hello everyone, I was hoping someone could help me out. I'm writing a program for my astronautics class for assent of th"
+          },
+          {
+            "rank": 3,
+            "id": 2495,
+            "score": 0.4258,
+            "vector_norm": 1.929,
+            "category": "sci.space",
+            "text": "My understanding is that the 'expected errors' are basically known bugs in the warning system software - things are chec"
+          },
+          {
+            "rank": 4,
+            "id": 3361,
+            "score": 0.4005,
+            "vector_norm": 2.404,
+            "category": "sci.space",
+            "text": "a yes, but the improvement in boost orbit to the HST is Significant, and that means you can then carry EDO packs and eno"
+          },
+          {
+            "rank": 5,
+            "id": 2474,
+            "score": 0.3957,
+            "vector_norm": 1.631,
+            "category": "sci.space",
+            "text": "RIght now the HST sevicing mission is listed as 11 days. before it was listed as 9 days. they just kicked up the number "
+          }
+        ]
+      },
+      "Euclid": {
+        "search_ms": 0.424,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 997,
+            "score": 5.2951,
+            "vector_norm": 2.181,
+            "category": "sci.space",
+            "text": "Well, you better not get the shuttle as your launch vehicle. and most ELV's have too far of a backlog for political mess"
+          },
+          {
+            "rank": 2,
+            "id": 1956,
+            "score": 5.336,
+            "vector_norm": 2.219,
+            "category": "sci.space",
+            "text": "Hello everyone, I was hoping someone could help me out. I'm writing a program for my astronautics class for assent of th"
+          },
+          {
+            "rank": 3,
+            "id": 2495,
+            "score": 5.3804,
+            "vector_norm": 1.929,
+            "category": "sci.space",
+            "text": "My understanding is that the 'expected errors' are basically known bugs in the warning system software - things are chec"
+          },
+          {
+            "rank": 4,
+            "id": 3361,
+            "score": 5.4163,
+            "vector_norm": 2.404,
+            "category": "sci.space",
+            "text": "a yes, but the improvement in boost orbit to the HST is Significant, and that means you can then carry EDO packs and eno"
+          },
+          {
+            "rank": 5,
+            "id": 2474,
+            "score": 5.4745,
+            "vector_norm": 1.631,
+            "category": "sci.space",
+            "text": "RIght now the HST sevicing mission is listed as 11 days. before it was listed as 9 days. they just kicked up the number "
+          }
+        ]
+      },
+      "Dot": {
+        "search_ms": 0.397,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 44,
+            "score": 8.0022,
+            "vector_norm": 4.556,
+            "category": "comp.os.ms-windows.misc",
+            "text": "Yes it invokes the associated application. That takes but 10 seconds?"
+          },
+          {
+            "rank": 2,
+            "id": 3413,
+            "score": 7.308,
+            "vector_norm": 5.191,
+            "category": "sci.space",
+            "text": "Hey!? What happened to the solar sail race that was supposed to be for Columbus+500?"
+          },
+          {
+            "rank": 3,
+            "id": 2276,
+            "score": 7.0951,
+            "vector_norm": 3.879,
+            "category": "comp.sys.mac.hardware",
+            "text": "The is a 3-4 week backorder, but they are shipping."
+          },
+          {
+            "rank": 4,
+            "id": 2685,
+            "score": 6.2317,
+            "vector_norm": 3.795,
+            "category": "talk.politics.guns",
+            "text": "I understand fire trucks had been at the site for several weeks but were sent home three or four days before the assault"
+          },
+          {
+            "rank": 5,
+            "id": 140,
+            "score": 6.2037,
+            "vector_norm": 5.294,
+            "category": "rec.sport.hockey",
+            "text": "I believe the NHL Draft is on or the June 18th weekend."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "query": "how to keep my email private with encryption",
+    "results": {
+      "Cosine": {
+        "search_ms": 0.412,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 1634,
+            "score": 0.4389,
+            "vector_norm": 2.599,
+            "category": "sci.crypt",
+            "text": "With E-Mail, if they can't break your PGP encryption, they'll just call up one of their TEMPEST trucks and read the elec"
+          },
+          {
+            "rank": 2,
+            "id": 308,
+            "score": 0.4268,
+            "vector_norm": 3.376,
+            "category": "sci.crypt",
+            "text": "I am looking for some Public Domain (and exportable) code for encryption. Nothing elaborate, just something that will sa"
+          },
+          {
+            "rank": 3,
+            "id": 3666,
+            "score": 0.414,
+            "vector_norm": 2.2,
+            "category": "sci.crypt",
+            "text": "1. Do a straight encryption of your keyrings and put the results with misleading names somewhere they won't be noticed ("
+          },
+          {
+            "rank": 4,
+            "id": 498,
+            "score": 0.3672,
+            "vector_norm": 1.736,
+            "category": "sci.crypt",
+            "text": "IMHO, encryption is (also) protected under the SECOND amendment of the Constitution of the United States. I am not surpr"
+          },
+          {
+            "rank": 5,
+            "id": 5905,
+            "score": 0.3594,
+            "vector_norm": 1.806,
+            "category": "sci.crypt",
+            "text": "nobody@alumni.cco.caltech.edu correctly states Jerry Berman's 1985 view on privacy, but he mistakenly assumes that this "
+          }
+        ]
+      },
+      "Euclid": {
+        "search_ms": 0.422,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 1634,
+            "score": 6.4343,
+            "vector_norm": 2.599,
+            "category": "sci.crypt",
+            "text": "With E-Mail, if they can't break your PGP encryption, they'll just call up one of their TEMPEST trucks and read the elec"
+          },
+          {
+            "rank": 2,
+            "id": 308,
+            "score": 6.4617,
+            "vector_norm": 3.376,
+            "category": "sci.crypt",
+            "text": "I am looking for some Public Domain (and exportable) code for encryption. Nothing elaborate, just something that will sa"
+          },
+          {
+            "rank": 3,
+            "id": 3666,
+            "score": 6.5396,
+            "vector_norm": 2.2,
+            "category": "sci.crypt",
+            "text": "1. Do a straight encryption of your keyrings and put the results with misleading names somewhere they won't be noticed ("
+          },
+          {
+            "rank": 4,
+            "id": 1040,
+            "score": 6.6947,
+            "vector_norm": 2.338,
+            "category": "sci.crypt",
+            "text": "as someone who just lived through a switch from SunOS4.x.x. to Solaris, i'll heartily agree with this. ObCrypt: one of m"
+          },
+          {
+            "rank": 5,
+            "id": 498,
+            "score": 6.6963,
+            "vector_norm": 1.736,
+            "category": "sci.crypt",
+            "text": "IMHO, encryption is (also) protected under the SECOND amendment of the Constitution of the United States. I am not surpr"
+          }
+        ]
+      },
+      "Dot": {
+        "search_ms": 0.392,
+        "top5": [
+          {
+            "rank": 1,
+            "id": 308,
+            "score": 10.2827,
+            "vector_norm": 3.376,
+            "category": "sci.crypt",
+            "text": "I am looking for some Public Domain (and exportable) code for encryption. Nothing elaborate, just something that will sa"
+          },
+          {
+            "rank": 2,
+            "id": 3931,
+            "score": 9.7352,
+            "vector_norm": 5.126,
+            "category": "sci.crypt",
+            "text": "Is the sending of encrypted traffic without government permission legal in New Zealand? David"
+          },
+          {
+            "rank": 3,
+            "id": 1810,
+            "score": 8.9751,
+            "vector_norm": 4.63,
+            "category": "sci.crypt",
+            "text": "Does anyone know where I can get a hold of some secure encrypting chips or devices before they are banned completely?!? "
+          },
+          {
+            "rank": 4,
+            "id": 644,
+            "score": 8.2284,
+            "vector_norm": 5.616,
+            "category": "talk.politics.misc",
+            "text": "does anyone have Prez. Clinton`s e-mail address. thanks a lot"
+          },
+          {
+            "rank": 5,
+            "id": 1634,
+            "score": 8.1396,
+            "vector_norm": 2.599,
+            "category": "sci.crypt",
+            "text": "With E-Mail, if they can't break your PGP encryption, they'll just call up one of their TEMPEST trucks and read the elec"
+          }
+        ]
+      }
+    }
+  }
+]

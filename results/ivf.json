@@ -1,0 +1,486 @@
+[
+  {
+    "group": "exact",
+    "method": "Qdrant exact (brute force)",
+    "avg_overlap": 5,
+    "avg_search_ms": 0.4295,
+    "avg_round_trip_ms": 2.7926,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 0.4501,
+        "round_trip_ms": 2.8852,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ]
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 0.4683,
+        "round_trip_ms": 2.7493,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ]
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 0.4467,
+        "round_trip_ms": 2.9616,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ]
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 5,
+        "search_ms": 0.4077,
+        "round_trip_ms": 2.5802,
+        "ids": [
+          997,
+          1956,
+          2495,
+          3361,
+          2474
+        ]
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 5,
+        "search_ms": 0.3746,
+        "round_trip_ms": 2.7866,
+        "ids": [
+          1634,
+          308,
+          3666,
+          498,
+          5905
+        ]
+      }
+    ]
+  },
+  {
+    "group": "ivf",
+    "method": "IVF (ours)",
+    "n_clusters": 40,
+    "nprobe": 1,
+    "avg_overlap": 4.4,
+    "avg_search_ms": 0.0238,
+    "avg_round_trip_ms": 0.0246,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 0.0224,
+        "round_trip_ms": 0.0231,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ],
+        "vectors_scanned": 134
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 0.0214,
+        "round_trip_ms": 0.022,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ],
+        "vectors_scanned": 128
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 0.0261,
+        "round_trip_ms": 0.027,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ],
+        "vectors_scanned": 157
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 3,
+        "search_ms": 0.0192,
+        "round_trip_ms": 0.0199,
+        "ids": [
+          997,
+          3361,
+          2474,
+          607,
+          3768
+        ],
+        "vectors_scanned": 105
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 4,
+        "search_ms": 0.0301,
+        "round_trip_ms": 0.0308,
+        "ids": [
+          1634,
+          308,
+          498,
+          5905,
+          5722
+        ],
+        "vectors_scanned": 182
+      }
+    ],
+    "avg_vectors_scanned": 141.2
+  },
+  {
+    "group": "ivf",
+    "method": "IVF (ours)",
+    "n_clusters": 40,
+    "nprobe": 2,
+    "avg_overlap": 4.6,
+    "avg_search_ms": 0.051,
+    "avg_round_trip_ms": 0.0517,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 0.0516,
+        "round_trip_ms": 0.0523,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ],
+        "vectors_scanned": 323
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 0.059,
+        "round_trip_ms": 0.0597,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ],
+        "vectors_scanned": 353
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 0.051,
+        "round_trip_ms": 0.0517,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ],
+        "vectors_scanned": 319
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 4,
+        "search_ms": 0.0365,
+        "round_trip_ms": 0.0371,
+        "ids": [
+          997,
+          1956,
+          3361,
+          2474,
+          607
+        ],
+        "vectors_scanned": 249
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 4,
+        "search_ms": 0.0569,
+        "round_trip_ms": 0.0575,
+        "ids": [
+          1634,
+          308,
+          498,
+          5905,
+          5722
+        ],
+        "vectors_scanned": 338
+      }
+    ],
+    "avg_vectors_scanned": 316.4
+  },
+  {
+    "group": "ivf",
+    "method": "IVF (ours)",
+    "n_clusters": 40,
+    "nprobe": 4,
+    "avg_overlap": 4.8,
+    "avg_search_ms": 0.1105,
+    "avg_round_trip_ms": 0.1113,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 0.1127,
+        "round_trip_ms": 0.1135,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ],
+        "vectors_scanned": 588
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 0.146,
+        "round_trip_ms": 0.147,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ],
+        "vectors_scanned": 701
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 0.1011,
+        "round_trip_ms": 0.1017,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ],
+        "vectors_scanned": 546
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 5,
+        "search_ms": 0.0789,
+        "round_trip_ms": 0.0796,
+        "ids": [
+          997,
+          1956,
+          2495,
+          3361,
+          2474
+        ],
+        "vectors_scanned": 450
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 4,
+        "search_ms": 0.1138,
+        "round_trip_ms": 0.1145,
+        "ids": [
+          1634,
+          308,
+          498,
+          5905,
+          5722
+        ],
+        "vectors_scanned": 583
+      }
+    ],
+    "avg_vectors_scanned": 573.6
+  },
+  {
+    "group": "ivf",
+    "method": "IVF (ours)",
+    "n_clusters": 40,
+    "nprobe": 8,
+    "avg_overlap": 4.8,
+    "avg_search_ms": 0.2606,
+    "avg_round_trip_ms": 0.2618,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 0.2352,
+        "round_trip_ms": 0.236,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ],
+        "vectors_scanned": 1063
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 0.2892,
+        "round_trip_ms": 0.2899,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ],
+        "vectors_scanned": 1271
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 0.3011,
+        "round_trip_ms": 0.3018,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ],
+        "vectors_scanned": 1250
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 5,
+        "search_ms": 0.2206,
+        "round_trip_ms": 0.2213,
+        "ids": [
+          997,
+          1956,
+          2495,
+          3361,
+          2474
+        ],
+        "vectors_scanned": 968
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 4,
+        "search_ms": 0.2571,
+        "round_trip_ms": 0.2599,
+        "ids": [
+          1634,
+          308,
+          498,
+          5905,
+          5722
+        ],
+        "vectors_scanned": 1157
+      }
+    ],
+    "avg_vectors_scanned": 1141.8
+  },
+  {
+    "group": "ivf",
+    "method": "IVF all clusters = in-process exact",
+    "n_clusters": 40,
+    "nprobe": 40,
+    "avg_overlap": 5,
+    "avg_search_ms": 1.6062,
+    "avg_round_trip_ms": 1.6077,
+    "per_query": [
+      {
+        "query": "a question about a graphics card driver",
+        "overlap": 5,
+        "search_ms": 1.6136,
+        "round_trip_ms": 1.6152,
+        "ids": [
+          1551,
+          1691,
+          2726,
+          5396,
+          785
+        ],
+        "vectors_scanned": 6000
+      },
+      {
+        "query": "which motorcycle helmet should I buy",
+        "overlap": 5,
+        "search_ms": 1.5985,
+        "round_trip_ms": 1.6,
+        "ids": [
+          25,
+          161,
+          3316,
+          1636,
+          4820
+        ],
+        "vectors_scanned": 6000
+      },
+      {
+        "query": "is there any evidence that god exists",
+        "overlap": 5,
+        "search_ms": 1.6301,
+        "round_trip_ms": 1.6318,
+        "ids": [
+          2873,
+          1176,
+          4656,
+          1626,
+          5533
+        ],
+        "vectors_scanned": 6000
+      },
+      {
+        "query": "delays to the next space shuttle launch",
+        "overlap": 5,
+        "search_ms": 1.606,
+        "round_trip_ms": 1.6072,
+        "ids": [
+          997,
+          1956,
+          2495,
+          3361,
+          2474
+        ],
+        "vectors_scanned": 6000
+      },
+      {
+        "query": "how to keep my email private with encryption",
+        "overlap": 5,
+        "search_ms": 1.5829,
+        "round_trip_ms": 1.5843,
+        "ids": [
+          1634,
+          308,
+          3666,
+          498,
+          5905
+        ],
+        "vectors_scanned": 6000
+      }
+    ],
+    "avg_vectors_scanned": 6000
+  }
+]

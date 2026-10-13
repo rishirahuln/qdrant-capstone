@@ -1,0 +1,17 @@
+method,avg_overlap_with_exact,avg_search_ms,avg_round_trip_ms
+Qdrant exact (brute force),5,0.4295,2.7926
+"HNSW default (m=16, ef_construct=100), ef=default (100)",5,0.3337,2.3937
+"HNSW default (m=16, ef_construct=100), ef=8",4.6,0.1722,1.8791
+"HNSW default (m=16, ef_construct=100), ef=16",5,0.2029,1.9444
+"HNSW default (m=16, ef_construct=100), ef=64",5,0.2908,2.0605
+"HNSW default (m=16, ef_construct=100), ef=128",5,0.3821,2.2119
+"HNSW undertuned (m=4, ef_construct=8), ef=default (8)",3.2,0.1591,1.9217
+"HNSW undertuned (m=4, ef_construct=8), ef=8",3.2,0.1504,1.8943
+"HNSW undertuned (m=4, ef_construct=8), ef=16",3.4,0.1598,1.8626
+"HNSW undertuned (m=4, ef_construct=8), ef=64",3.6,0.2055,1.9861
+"HNSW undertuned (m=4, ef_construct=8), ef=128",4,0.2438,2.0049
+"IVF (ours), nprobe=1",4.4,0.0238,0.0246
+"IVF (ours), nprobe=2",4.6,0.051,0.0517
+"IVF (ours), nprobe=4",4.8,0.1105,0.1113
+"IVF (ours), nprobe=8",4.8,0.2606,0.2618
+"IVF all clusters = in-process exact, nprobe=40",5,1.6062,1.6077
