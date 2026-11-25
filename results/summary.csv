@@ -1,17 +1,17 @@
-method,avg_overlap_with_exact,avg_search_ms,avg_round_trip_ms
-Qdrant exact (brute force),5,0.4295,2.7926
-"HNSW default (m=16, ef_construct=100), ef=default (100)",5,0.3337,2.3937
-"HNSW default (m=16, ef_construct=100), ef=8",4.6,0.1722,1.8791
-"HNSW default (m=16, ef_construct=100), ef=16",5,0.2029,1.9444
-"HNSW default (m=16, ef_construct=100), ef=64",5,0.2908,2.0605
-"HNSW default (m=16, ef_construct=100), ef=128",5,0.3821,2.2119
-"HNSW undertuned (m=4, ef_construct=8), ef=default (8)",3.2,0.1591,1.9217
-"HNSW undertuned (m=4, ef_construct=8), ef=8",3.2,0.1504,1.8943
-"HNSW undertuned (m=4, ef_construct=8), ef=16",3.4,0.1598,1.8626
-"HNSW undertuned (m=4, ef_construct=8), ef=64",3.6,0.2055,1.9861
-"HNSW undertuned (m=4, ef_construct=8), ef=128",4,0.2438,2.0049
-"IVF (ours), nprobe=1",4.4,0.0238,0.0246
-"IVF (ours), nprobe=2",4.6,0.051,0.0517
-"IVF (ours), nprobe=4",4.8,0.1105,0.1113
-"IVF (ours), nprobe=8",4.8,0.2606,0.2618
-"IVF all clusters = in-process exact, nprobe=40",5,1.6062,1.6077
+method                                                   , avg_overlap_with_exact, avg_search_ms, avg_round_trip_ms
+Qdrant exact (brute force)                               ,                    5  ,        0.4639,            3.017
+"HNSW default (m=16, ef_construct=100), ef=default (100)",                    5  ,        0.4132,            2.5917
+"HNSW default (m=16, ef_construct=100), ef=8"            ,                    4.6,        0.2186,            2.3457
+"HNSW default (m=16, ef_construct=100), ef=16"           ,                    5  ,        0.258 ,            2.4706
+"HNSW default (m=16, ef_construct=100), ef=64"           ,                    5  ,        0.3747,            2.6779
+"HNSW default (m=16, ef_construct=100), ef=128"          ,                    5  ,        0.4699,            2.6253
+"HNSW undertuned (m=4, ef_construct=8), ef=default (8)"  ,                    1.8,        0.1742,            2.1496
+"HNSW undertuned (m=4, ef_construct=8), ef=8"            ,                    1.8,        0.1676,            2.1933
+"HNSW undertuned (m=4, ef_construct=8), ef=16"           ,                    2.6,        0.1902,            2.4502
+"HNSW undertuned (m=4, ef_construct=8), ef=64"           ,                    3.6,        0.2577,            2.7269
+"HNSW undertuned (m=4, ef_construct=8), ef=128"          ,                    3.8,        0.273 ,            2.4911
+"IVF (ours), nprobe=1"                                   ,                    4.4,        0.0305,            0.0313
+"IVF (ours), nprobe=2"                                   ,                    4.6,        0.0689,            0.0698
+"IVF (ours), nprobe=4"                                   ,                    4.8,        0.1324,            0.1332
+"IVF (ours), nprobe=8"                                   ,                    4.8,        0.2782,            0.279
+"IVF all clusters = in-process exact, nprobe=40"         ,                    5  ,        1.6994,            1.7023

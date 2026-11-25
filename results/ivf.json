@@ -3,14 +3,14 @@
     "group": "exact",
     "method": "Qdrant exact (brute force)",
     "avg_overlap": 5,
-    "avg_search_ms": 0.4295,
-    "avg_round_trip_ms": 2.7926,
+    "avg_search_ms": 0.4639,
+    "avg_round_trip_ms": 3.017,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 0.4501,
-        "round_trip_ms": 2.8852,
+        "search_ms": 0.511,
+        "round_trip_ms": 3.4527,
         "ids": [
           1551,
           1691,
@@ -22,8 +22,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 0.4683,
-        "round_trip_ms": 2.7493,
+        "search_ms": 0.5038,
+        "round_trip_ms": 3.3539,
         "ids": [
           25,
           161,
@@ -35,8 +35,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 0.4467,
-        "round_trip_ms": 2.9616,
+        "search_ms": 0.4377,
+        "round_trip_ms": 2.9348,
         "ids": [
           2873,
           1176,
@@ -48,8 +48,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 5,
-        "search_ms": 0.4077,
-        "round_trip_ms": 2.5802,
+        "search_ms": 0.4233,
+        "round_trip_ms": 2.7081,
         "ids": [
           997,
           1956,
@@ -61,8 +61,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 5,
-        "search_ms": 0.3746,
-        "round_trip_ms": 2.7866,
+        "search_ms": 0.4438,
+        "round_trip_ms": 2.6356,
         "ids": [
           1634,
           308,
@@ -79,14 +79,14 @@
     "n_clusters": 40,
     "nprobe": 1,
     "avg_overlap": 4.4,
-    "avg_search_ms": 0.0238,
-    "avg_round_trip_ms": 0.0246,
+    "avg_search_ms": 0.0305,
+    "avg_round_trip_ms": 0.0313,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 0.0224,
-        "round_trip_ms": 0.0231,
+        "search_ms": 0.0269,
+        "round_trip_ms": 0.0277,
         "ids": [
           1551,
           1691,
@@ -99,8 +99,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 0.0214,
-        "round_trip_ms": 0.022,
+        "search_ms": 0.0238,
+        "round_trip_ms": 0.0244,
         "ids": [
           25,
           161,
@@ -113,8 +113,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 0.0261,
-        "round_trip_ms": 0.027,
+        "search_ms": 0.0393,
+        "round_trip_ms": 0.0403,
         "ids": [
           2873,
           1176,
@@ -127,8 +127,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 3,
-        "search_ms": 0.0192,
-        "round_trip_ms": 0.0199,
+        "search_ms": 0.0257,
+        "round_trip_ms": 0.0266,
         "ids": [
           997,
           3361,
@@ -141,8 +141,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 4,
-        "search_ms": 0.0301,
-        "round_trip_ms": 0.0308,
+        "search_ms": 0.0367,
+        "round_trip_ms": 0.0376,
         "ids": [
           1634,
           308,
@@ -161,14 +161,14 @@
     "n_clusters": 40,
     "nprobe": 2,
     "avg_overlap": 4.6,
-    "avg_search_ms": 0.051,
-    "avg_round_trip_ms": 0.0517,
+    "avg_search_ms": 0.0689,
+    "avg_round_trip_ms": 0.0698,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 0.0516,
-        "round_trip_ms": 0.0523,
+        "search_ms": 0.0697,
+        "round_trip_ms": 0.0706,
         "ids": [
           1551,
           1691,
@@ -181,8 +181,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 0.059,
-        "round_trip_ms": 0.0597,
+        "search_ms": 0.0831,
+        "round_trip_ms": 0.084,
         "ids": [
           25,
           161,
@@ -195,8 +195,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 0.051,
-        "round_trip_ms": 0.0517,
+        "search_ms": 0.0613,
+        "round_trip_ms": 0.0622,
         "ids": [
           2873,
           1176,
@@ -209,8 +209,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 4,
-        "search_ms": 0.0365,
-        "round_trip_ms": 0.0371,
+        "search_ms": 0.0563,
+        "round_trip_ms": 0.0573,
         "ids": [
           997,
           1956,
@@ -223,8 +223,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 4,
-        "search_ms": 0.0569,
-        "round_trip_ms": 0.0575,
+        "search_ms": 0.0739,
+        "round_trip_ms": 0.0749,
         "ids": [
           1634,
           308,
@@ -243,14 +243,14 @@
     "n_clusters": 40,
     "nprobe": 4,
     "avg_overlap": 4.8,
-    "avg_search_ms": 0.1105,
-    "avg_round_trip_ms": 0.1113,
+    "avg_search_ms": 0.1324,
+    "avg_round_trip_ms": 0.1332,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 0.1127,
-        "round_trip_ms": 0.1135,
+        "search_ms": 0.1374,
+        "round_trip_ms": 0.1382,
         "ids": [
           1551,
           1691,
@@ -263,8 +263,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 0.146,
-        "round_trip_ms": 0.147,
+        "search_ms": 0.1572,
+        "round_trip_ms": 0.158,
         "ids": [
           25,
           161,
@@ -277,8 +277,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 0.1011,
-        "round_trip_ms": 0.1017,
+        "search_ms": 0.1149,
+        "round_trip_ms": 0.1157,
         "ids": [
           2873,
           1176,
@@ -291,8 +291,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 5,
-        "search_ms": 0.0789,
-        "round_trip_ms": 0.0796,
+        "search_ms": 0.1035,
+        "round_trip_ms": 0.1044,
         "ids": [
           997,
           1956,
@@ -305,8 +305,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 4,
-        "search_ms": 0.1138,
-        "round_trip_ms": 0.1145,
+        "search_ms": 0.1488,
+        "round_trip_ms": 0.1498,
         "ids": [
           1634,
           308,
@@ -325,14 +325,14 @@
     "n_clusters": 40,
     "nprobe": 8,
     "avg_overlap": 4.8,
-    "avg_search_ms": 0.2606,
-    "avg_round_trip_ms": 0.2618,
+    "avg_search_ms": 0.2782,
+    "avg_round_trip_ms": 0.279,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 0.2352,
-        "round_trip_ms": 0.236,
+        "search_ms": 0.2624,
+        "round_trip_ms": 0.2631,
         "ids": [
           1551,
           1691,
@@ -345,8 +345,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 0.2892,
-        "round_trip_ms": 0.2899,
+        "search_ms": 0.2803,
+        "round_trip_ms": 0.281,
         "ids": [
           25,
           161,
@@ -359,8 +359,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 0.3011,
-        "round_trip_ms": 0.3018,
+        "search_ms": 0.3181,
+        "round_trip_ms": 0.319,
         "ids": [
           2873,
           1176,
@@ -373,8 +373,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 5,
-        "search_ms": 0.2206,
-        "round_trip_ms": 0.2213,
+        "search_ms": 0.2438,
+        "round_trip_ms": 0.2445,
         "ids": [
           997,
           1956,
@@ -387,8 +387,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 4,
-        "search_ms": 0.2571,
-        "round_trip_ms": 0.2599,
+        "search_ms": 0.2866,
+        "round_trip_ms": 0.2874,
         "ids": [
           1634,
           308,
@@ -407,14 +407,14 @@
     "n_clusters": 40,
     "nprobe": 40,
     "avg_overlap": 5,
-    "avg_search_ms": 1.6062,
-    "avg_round_trip_ms": 1.6077,
+    "avg_search_ms": 1.6994,
+    "avg_round_trip_ms": 1.7023,
     "per_query": [
       {
         "query": "a question about a graphics card driver",
         "overlap": 5,
-        "search_ms": 1.6136,
-        "round_trip_ms": 1.6152,
+        "search_ms": 1.7622,
+        "round_trip_ms": 1.7661,
         "ids": [
           1551,
           1691,
@@ -427,8 +427,8 @@
       {
         "query": "which motorcycle helmet should I buy",
         "overlap": 5,
-        "search_ms": 1.5985,
-        "round_trip_ms": 1.6,
+        "search_ms": 1.7023,
+        "round_trip_ms": 1.7053,
         "ids": [
           25,
           161,
@@ -441,8 +441,8 @@
       {
         "query": "is there any evidence that god exists",
         "overlap": 5,
-        "search_ms": 1.6301,
-        "round_trip_ms": 1.6318,
+        "search_ms": 1.6149,
+        "round_trip_ms": 1.6167,
         "ids": [
           2873,
           1176,
@@ -455,8 +455,8 @@
       {
         "query": "delays to the next space shuttle launch",
         "overlap": 5,
-        "search_ms": 1.606,
-        "round_trip_ms": 1.6072,
+        "search_ms": 1.6861,
+        "round_trip_ms": 1.6894,
         "ids": [
           997,
           1956,
@@ -469,8 +469,8 @@
       {
         "query": "how to keep my email private with encryption",
         "overlap": 5,
-        "search_ms": 1.5829,
-        "round_trip_ms": 1.5843,
+        "search_ms": 1.7314,
+        "round_trip_ms": 1.734,
         "ids": [
           1634,
           308,
