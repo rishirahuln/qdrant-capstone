@@ -3,7 +3,7 @@
     "query": "a question about a graphics card driver",
     "results": {
       "Cosine": {
-        "search_ms": 0.474,
+        "search_ms": 0.442,
         "top5": [
           {
             "rank": 1,
@@ -48,7 +48,7 @@
         ]
       },
       "Euclid": {
-        "search_ms": 0.501,
+        "search_ms": 0.502,
         "top5": [
           {
             "rank": 1,
@@ -93,7 +93,7 @@
         ]
       },
       "Dot": {
-        "search_ms": 0.411,
+        "search_ms": 0.468,
         "top5": [
           {
             "rank": 1,
@@ -143,7 +143,7 @@
     "query": "which motorcycle helmet should I buy",
     "results": {
       "Cosine": {
-        "search_ms": 0.421,
+        "search_ms": 0.432,
         "top5": [
           {
             "rank": 1,
@@ -188,7 +188,7 @@
         ]
       },
       "Euclid": {
-        "search_ms": 0.424,
+        "search_ms": 0.433,
         "top5": [
           {
             "rank": 1,
@@ -233,7 +233,7 @@
         ]
       },
       "Dot": {
-        "search_ms": 0.403,
+        "search_ms": 0.455,
         "top5": [
           {
             "rank": 1,
@@ -283,7 +283,7 @@
     "query": "is there any evidence that god exists",
     "results": {
       "Cosine": {
-        "search_ms": 0.418,
+        "search_ms": 0.443,
         "top5": [
           {
             "rank": 1,
@@ -328,7 +328,7 @@
         ]
       },
       "Euclid": {
-        "search_ms": 0.405,
+        "search_ms": 0.439,
         "top5": [
           {
             "rank": 1,
@@ -373,7 +373,7 @@
         ]
       },
       "Dot": {
-        "search_ms": 0.378,
+        "search_ms": 0.464,
         "top5": [
           {
             "rank": 1,
@@ -423,7 +423,7 @@
     "query": "delays to the next space shuttle launch",
     "results": {
       "Cosine": {
-        "search_ms": 0.388,
+        "search_ms": 0.433,
         "top5": [
           {
             "rank": 1,
@@ -468,7 +468,7 @@
         ]
       },
       "Euclid": {
-        "search_ms": 0.427,
+        "search_ms": 0.431,
         "top5": [
           {
             "rank": 1,
@@ -513,7 +513,7 @@
         ]
       },
       "Dot": {
-        "search_ms": 0.424,
+        "search_ms": 0.447,
         "top5": [
           {
             "rank": 1,
@@ -563,7 +563,7 @@
     "query": "how to keep my email private with encryption",
     "results": {
       "Cosine": {
-        "search_ms": 0.409,
+        "search_ms": 0.453,
         "top5": [
           {
             "rank": 1,
@@ -608,7 +608,7 @@
         ]
       },
       "Euclid": {
-        "search_ms": 0.42,
+        "search_ms": 0.463,
         "top5": [
           {
             "rank": 1,
@@ -653,7 +653,7 @@
         ]
       },
       "Dot": {
-        "search_ms": 0.414,
+        "search_ms": 0.444,
         "top5": [
           {
             "rank": 1,
